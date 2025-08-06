@@ -92,7 +92,7 @@ jobs:
 
       - name: Setup Docker Cache
         id: docker_cache
-        uses: useblacksmith/build-push-action@574eb0ee0b59c6a687ace24192f0727dfb65d6d7 # v1
+        uses: useblacksmith/build-push-action@c21374648927d564cd55e48de279fb500fc2e0a3 # v2
         with:
           setup-only: true
 
